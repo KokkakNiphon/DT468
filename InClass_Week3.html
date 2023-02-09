@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cat T-Shirt Order Form</title>
+  </head>
+
+<body>
+    <h1 style="font-size:36px;">Cat T-Shirt Order Form</h1>
+    <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name">
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name">
+        <p></p>
+        <div>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <p></p>
+        <div>
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="big">Big</option>
+            </select>
+        </div>
+        <p></p>
+        Accessories:
+        <div>
+            <label for="breast-pocket">Breast Pocket:</label>
+            <input type="checkbox" id="breast-pocket" name="accessories" value="breast-pocket" checked>
+
+            <label for="ribbon">Ribbon:</label>
+            <input type="checkbox" id="ribbon" name="accessories" value="ribbon">
+
+            <label for="chain">Chain:</label>
+            <input type="checkbox" id="chain" name="accessories" value="chain">
+        </div>
+
+        <p></p>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <p></p>
+
+        <div>
+            <button type="submit">Buy</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

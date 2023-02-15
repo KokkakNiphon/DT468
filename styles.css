@@ -1,15 +1,11 @@
 body {
-    background-color: white;
+    background-color: #dddcdc;
     font-family: 'Nunito', sans-serif;
 }
 
 img {
     width: 100%;
     padding: 10px;
-}
-
-p, h3{
-    margin: 10px;
 }
 
 h1, h2, h3 {
@@ -29,6 +25,10 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 240px;
+}
+.nav-bar {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .table-data {
@@ -57,9 +57,8 @@ tr:nth-child(odd
 }
 
 .body-main {
-    padding: 20px 20px;
+    padding: 0px 20px 20px 0px;
     margin: 10px 10px;
-    background-color: #dddcdc;
 }
 
 .body-content {
@@ -76,17 +75,24 @@ tr:nth-child(odd
     background-size: cover;
 }
 
+.sub-section-group {
+    display: flex;
+}
+
 .sub-section {
     border-radius: 10px;
     background-color: rgb(168, 168, 168);
-    padding-bottom: 10px;
+    padding: 0px 10px 10px 10px;
+    margin: 5px;
+    width: 100%;
 }
 
 .sub-section-header {
-    padding: 10px;
+    padding: 5px;
     color: white;
     border-radius: 10px;
     background-color: #53453b;
+    font-weight: bold;
 }
 
 .sub-section-img {

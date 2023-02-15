@@ -17,7 +17,11 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
+    background-color: #53453b;
+    color: white;
+    font-weight: bold;
+    
 }
 
 table {
@@ -25,6 +29,12 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 240px;
+}
+
+.table-data {
+    width: 17%;
+    vertical-align: top;
+    display: inline-block;
 }
 
 td, th{
@@ -50,6 +60,20 @@ tr:nth-child(odd
     padding: 20px 20px;
     margin: 10px 10px;
     background-color: #dddcdc;
+}
+
+.body-content {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.title-section {
+    background-image: url("cat.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sub-section {
